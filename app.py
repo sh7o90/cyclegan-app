@@ -27,7 +27,7 @@ class Options:
         self.netG = 'resnet_9blocks'
         self.netD = 'basic'
         self.no_dropout = True
-        self.gpu_ids = [-1]  # GPUを使用する場合は、使用するGPUのIDを指定する
+        self.gpu_ids = []  # GPUを使用する場合は、使用するGPUのIDを指定する
         self.isTrain = False  # 推論時はFalseに設定
         self.checkpoints_dir = ''  # チェックポイントの保存先ディレクトリ
         self.name = ''  # モデル名
