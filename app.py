@@ -9,11 +9,6 @@ import torchvision.models as models
 from torchvision import transforms
 from torchvision.models import resnet18
 import torch.nn as nn
-import psutil
-memory = psutil.virtual_memory()
-print(f"Total: {memory.total / (1024.0 ** 2):.2f} MB")
-print(f"Available: {memory.available / (1024.0 ** 2):.2f} MB")
-print(f"Used: {memory.used / (1024.0 ** 2):.2f} MB")
 
 
 # 学習済みモデルに合わせた前処理を追加
