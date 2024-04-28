@@ -1,0 +1,38 @@
+cyclegan-app/
+├── app.py
+├── requirements.txt
+├── mlmodel/
+│   ├── checkpoints/
+│   │   ├── summer_autumn_cyclegan
+│   │   ├── summer_spring_cyclegan
+│   │   └── summer_winter_cyclegan
+│   ├── data/
+│   │   ├── __init__.py
+│   │   ├── aligned_dataset.py
+│   │   ├── base_dataset.py
+│   │   ├── colorization_dataset.py
+│   │   ├── image_folder.py
+│   │   ├── single_dataset.py
+│   │   ├── template_dataset.py
+│   │   └── unaligned_dataset.py
+│   ├── models/
+│   │   ├── __init__.py
+│   │   ├── base_model.py
+│   │   ├── colorization_model.py
+│   │   ├── cycle_gan_model.py
+│   │   ├── networks.py
+│   │   ├── pix2pix_model.py
+│   │   ├── template_model.py
+│   │   ├── test_model.py
+│   ├── options/
+│   │   ├── __init__.py
+│   │   ├── base_options.py
+│   │   ├── test_options.py
+│   │   └── train_options.py
+│   └── util/
+│       ├── __init__.py
+│       ├── get_data.py
+│       ├── html.py
+│       ├── image_pool.py
+│       ├── util.py
+│       └── visualizer.py
