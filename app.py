@@ -25,7 +25,8 @@ class Options:
         self.output_nc = 3
         self.ngf = 64
         self.ndf = 64
-        self.netG = 'resnet_9blocks'
+        # self.netG = 'resnet_9blocks'
+        self.netG = 'unet_256'
         self.netD = 'basic'
         self.no_dropout = True
         self.gpu_ids = []  # GPUを使用する場合は、使用するGPUのIDを指定する
