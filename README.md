@@ -39,7 +39,7 @@
 ```http://localhost:8501```
 
 # デモ
-https://github.com/sh7o90/handwriting_app/assets/158803446/c2ed37be-002b-400c-8a4b-1a5ee91a10f3
+https://github.com/sh7o90/cyclegan-app/assets/158803446/85778374-05a2-42e4-a3b0-249d6c0cdbb2
 
 # ライセンス
 このプロジェクトは MIT ライセンスの下で公開されています。[MIT license](https://en.wikipedia.org/wiki/MIT_License)
